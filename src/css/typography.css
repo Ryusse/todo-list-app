@@ -41,13 +41,3 @@ h2 {
 .black {
   color: var(--black);
 }
-
-button {
-  border: none;
-  background-color: transparent;
-}
-
-input {
-  border: none;
-  background: transparent;
-}

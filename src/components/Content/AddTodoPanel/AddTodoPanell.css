@@ -11,6 +11,13 @@
 }
 
 .panel__title {
+  margin-top: 2rem;
+}
+
+.panel__header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-bottom: 2rem;
 }
 
@@ -19,21 +26,6 @@
   flex-direction: column;
   gap: 1rem;
   margin-bottom: 3rem;
-}
-
-.panel__textarea,
-.panel__input {
-  border: 1px solid var(--grayish);
-  padding: 0.5rem 0.8rem;
-  border-radius: var(--border-radius);
-}
-
-.panel__textarea {
-  height: 5rem;
-}
-
-.panel__input:nth-child(2) {
-  height: 5rem;
 }
 
 .panel__buton-container {

@@ -1,0 +1,24 @@
+.input {
+  border: 1px solid var(--grayish-light);
+  padding: 0.8rem;
+  border-radius: var(--border-radius);
+  transition: all 0.2s ease-in-out;
+}
+
+.input::placeholder {
+  color: var(--grayish-light);
+}
+
+.input:hover,
+.input:focus {
+  border: 1px solid var(--grayish);
+}
+
+.input:hover::placeholder,
+.input:focus::placeholder {
+  color: var(--grayish);
+}
+
+.input.mousedown:focus {
+  outline: double var(--blue-light);
+}

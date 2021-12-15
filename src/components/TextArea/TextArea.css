@@ -1,0 +1,20 @@
+textarea {
+  border: 1px solid var(--grayish-light);
+  padding: 0.8rem;
+  border-radius: var(--border-radius);
+  height: 7rem;
+  transition: all 0.2s ease-in-out;
+}
+
+textarea::placeholder {
+  color: var(--grayish-light);
+}
+
+textarea:hover,
+textarea:focus {
+  border: 1px solid var(--grayish);
+}
+
+textarea.mousedown:focus {
+  outline: double var(--blue-light);
+}

@@ -9,7 +9,10 @@
   --white: #fff;
   --white-pale: #f9fafe;
   --black: #1d2025;
-  --grayish: #68707d;
+  --blue-light: #39cfe3;
+
+  --grayish: rgb(104, 112, 125);
+  --grayish-light: rgba(104, 112, 125, 55%);
 
   --red-hover: #a10c16;
   --green-hover: #02a14d;

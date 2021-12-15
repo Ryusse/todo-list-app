@@ -1,0 +1,19 @@
+.close-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.1rem;
+  border-radius: 0.2rem;
+}
+
+.panel__close-button {
+  margin-bottom: 2rem;
+}
+
+.close-button:hover {
+  border: 1px solid var(--grayish-light);
+}
+
+.close-button.mousedown:focus {
+  outline: double var(--blue-light);
+}

@@ -4,6 +4,7 @@ import './App.css'
 import './css/normalize.css'
 import './css/variables.css'
 import './css/typography.css'
+import './css/base.css'
 
 function App() {
   return (
